@@ -15,3 +15,6 @@ resource "azurerm_resource_group" "rg" {
   location = "australiaeast"
   name     = "mytestrg"
 }
+
+resource "null_resource" "quickstart" {
+}
