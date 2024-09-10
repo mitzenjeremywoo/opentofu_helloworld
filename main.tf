@@ -13,7 +13,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   location = "australiaeast"
-  name     = "mytestrg"
+  name     = var.rgname
 }
 
 resource "null_resource" "quickstart" {
